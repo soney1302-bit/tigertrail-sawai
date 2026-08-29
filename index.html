@@ -427,25 +427,99 @@ Current Fare
 </section>
 
 <section class="booking" id="booking">
-<div class="section-title"><span>Safari Enquiry</span><h2>Plan Your Safari</h2><p>Fill in your details and send your enquiry directly on WhatsApp.</p></div>
+
+<div class="section-title">
+<span>Safari Enquiry</span>
+<h2>Plan Your Ranthambore Safari</h2>
+<p>Send your details on WhatsApp to check current safari fare, availability and booking assistance.</p>
+</div>
+
 <div class="booking-box">
+
 <form id="bookingForm">
+
 <div class="form-row">
-<div class="form-group"><label for="customerName">Your Name</label><input type="text" id="customerName" placeholder="Enter your name" required></div>
-<div class="form-group"><label for="customerMobile">Mobile Number</label><input type="tel" id="customerMobile" placeholder="Enter mobile number" inputmode="numeric" maxlength="10" required></div>
+
+<div class="form-group">
+<label for="customerName">Your Name</label>
+<input type="text" id="customerName" placeholder="Enter your name" required>
 </div>
+
+<div class="form-group">
+<label for="customerMobile">Mobile Number</label>
+<input type="tel" id="customerMobile" placeholder="Enter mobile number" inputmode="numeric" maxlength="10" required>
+</div>
+
+</div>
+
+
 <div class="form-row">
-<div class="form-group"><label for="safariType">Safari Type</label><select id="safariType" required><option value="">Select Safari</option><option value="Jeep Safari">Jeep Safari</option><option value="Canter Safari">Canter Safari</option></select></div>
-<div class="form-group"><label for="safariDate">Safari Date</label><input type="date" id="safariDate" required></div>
+
+<div class="form-group">
+<label for="safariType">Safari Type</label>
+
+<select id="safariType" required>
+<option value="">Select Safari</option>
+<option value="Ranthambore Jeep Safari">Ranthambore Jeep Safari</option>
+<option value="Ranthambore Canter Safari">Ranthambore Canter Safari</option>
+</select>
+
 </div>
+
+<div class="form-group">
+<label for="safariDate">Safari Date</label>
+<input type="date" id="safariDate" required>
+</div>
+
+</div>
+
+
 <div class="form-row">
-<div class="form-group"><label for="visitors">Number of Visitors</label><input type="number" id="visitors" min="1" max="50" placeholder="Number of people" required></div>
-<div class="form-group"><label for="shift">Preferred Safari</label><select id="shift"><option value="">Select preference</option><option value="Morning">Morning</option><option value="Afternoon">Afternoon</option></select></div>
+
+<div class="form-group">
+<label for="visitors">Number of Visitors</label>
+<input type="number" id="visitors" min="1" max="50" placeholder="Number of people" required>
 </div>
-<div class="form-group"><label for="customerMessage">Message</label><textarea id="customerMessage" rows="4" placeholder="Any special requirement?"></textarea></div>
-<button type="submit" class="submit-btn">💬 Send Enquiry on WhatsApp</button>
+
+<div class="form-group">
+<label for="shift">Preferred Safari Shift</label>
+
+<select id="shift">
+<option value="">Select preference</option>
+<option value="Morning">Morning</option>
+<option value="Afternoon">Afternoon</option>
+</select>
+
+</div>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="customerMessage">Message</label>
+
+<textarea
+id="customerMessage"
+rows="4"
+placeholder="Any special requirement or request?"></textarea>
+
+</div>
+
+
+<div class="booking-note">
+ℹ️ Current safari fare and availability will be confirmed before booking.
+</div>
+
+
+<button type="submit" class="submit-btn">
+💬 Check Current Fare & Availability
+</button>
+
 </form>
+
 </div>
+
 </section>
 
 <section class="contact" id="contact">
